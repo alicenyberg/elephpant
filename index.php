@@ -2,8 +2,6 @@
 
 <?php require __DIR__ . '/functions.php'; ?>
 
-<header>
-    <h1>Hello!<h1>
-</header>
+<h1>Hello</h1>
 
 <?php require __DIR__ . '/footer.php'; ?>
