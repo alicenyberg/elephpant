@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  margin: 0px;
+}
+
+.dogs_wrapper {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  text-align: center;
+}
+
+.dogs_wrapper img {
+  width: 100%;
+}
+.dogs_wrapper h2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.dogs_wrapper p {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.allDogs {
+  border-style: dotted;
+}
+
+@media screen and (min-width: 1024px) {
+  .dogs_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .dogs_wrapper img {
+    height: 200px;
+    width: 200px;
+  }
+  .allDogs {
+    width: 30%;
+  }
+}
+
+.facts {
+  display: flex;
+  justify-content: center;
+  border-style: dotted;
+  margin: 20px;
+}
