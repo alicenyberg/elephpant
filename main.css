@@ -3,7 +3,8 @@
 }
 
 body {
-  background-color: white;
+  background-color: rgb(240, 197, 197);
+
   margin: 0px;
 }
 
@@ -11,24 +12,43 @@ body {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin: 5px;
   text-align: center;
+  padding: 60px;
+  gap: 20px;
 }
 
 .dogs_wrapper img {
+  padding: 5px;
+  margin-top: 20px;
   width: 100%;
+  border-radius: 10px;
 }
+
+.dogs_wrapper img:hover {
+  opacity: 0.5;
+}
+
 .dogs_wrapper h2 {
-  font-size: 15px;
-  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+  text-decoration: underline;
 }
 .dogs_wrapper p {
-  font-size: 10px;
-  margin-top: 10px;
+  padding: 30px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .allDogs {
-  border-style: dotted;
+  border-style: groove;
+  border-color: lightsalmon;
+}
+
+.facts_wrapper {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 1024px) {
@@ -45,11 +65,13 @@ body {
   .allDogs {
     width: 30%;
   }
-}
-
-.facts {
-  display: flex;
-  justify-content: center;
-  border-style: dotted;
-  margin: 20px;
+  .facts {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  footer {
+    display: flex;
+  }
 }
