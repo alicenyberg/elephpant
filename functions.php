@@ -1,7 +1,10 @@
 <?php
 
-$date = date("d-m-Y");
+declare(strict_types=1);
 
+
+
+$date = date('Y');
 
 
 

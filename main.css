@@ -4,7 +4,6 @@
 
 body {
   background-color: rgb(240, 197, 197);
-
   margin: 0px;
 }
 
@@ -15,6 +14,7 @@ body {
   text-align: center;
   padding: 60px;
   gap: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .dogs_wrapper img {
@@ -29,51 +29,96 @@ body {
 }
 
 .dogs_wrapper h2 {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   margin-bottom: 5px;
   text-decoration: underline;
 }
 .dogInfo {
-  padding: 30px;
   font-size: 18px;
   text-align: center;
 }
 .allDogs {
+  padding: 20px;
   border-style: groove;
+  border-width: 5px;
   border-color: lightsalmon;
 }
+
 .dogSize p {
   padding: 10px;
 }
+
 .facts_wrapper {
   justify-content: center;
   display: flex;
   flex-direction: column;
   text-align: center;
   gap: 20px;
+  font-family: 'Poppins', sans-serif;
+  padding: 60px;
 }
 
-.facts_wrapper h3 {
-  font-size: 30px;
+.facts h3 {
+  font-size: 25px;
   text-align: center;
   margin-bottom: 5px;
   text-decoration: underline;
   padding: 10px;
 }
+.facts_wrapper p {
+  font-size: 15px;
+}
 .facts_wrapper li {
-  padding: 10px;
+  margin: 10px;
+  justify-content: center;
   text-align: start;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
 }
 
 .facts {
+  padding: 30px;
   border-style: groove;
+  border-width: 5px;
   border-color: lightsalmon;
 }
 
 .countdown {
   border-style: groove;
+  border-width: 5px;
   border-color: lightsalmon;
+}
+
+.countdown h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.countdown img {
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.countdown img:hover {
+  opacity: 0.5;
+}
+
+.countdown a:link {
+  color: darksalmon;
+}
+.countdown a:visited {
+  color: black;
+}
+.countdown a:hover {
+  color: rgb(228, 104, 62);
 }
 
 @media screen and (min-width: 1024px) {
@@ -89,6 +134,21 @@ body {
   }
   .allDogs {
     width: 30%;
+  }
+
+  .facts_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .facts {
+    width: 50%;
+  }
+
+  .countdown {
+    width: 50%;
   }
 
   footer {

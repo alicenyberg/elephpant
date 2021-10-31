@@ -1,6 +1,6 @@
 <footer>
-    <p>Alice Nyberg</p>
-    <p> <?php echo $date ?> </p>
+    <small>&copy; <?php echo $date ?> </small>
+    <p> <?php echo $author ?> </p>
 </footer>
 
 
