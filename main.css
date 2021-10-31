@@ -34,21 +34,46 @@ body {
   margin-bottom: 5px;
   text-decoration: underline;
 }
-.dogs_wrapper p {
+.dogInfo {
   padding: 30px;
   font-size: 18px;
   text-align: center;
 }
-
 .allDogs {
   border-style: groove;
   border-color: lightsalmon;
 }
-
+.dogSize p {
+  padding: 10px;
+}
 .facts_wrapper {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.facts_wrapper h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  padding: 10px;
+}
+.facts_wrapper li {
+  padding: 10px;
+  text-align: start;
+}
+
+.facts {
+  border-style: groove;
+  border-color: lightsalmon;
+}
+
+.countdown {
+  border-style: groove;
+  border-color: lightsalmon;
 }
 
 @media screen and (min-width: 1024px) {
@@ -65,12 +90,7 @@ body {
   .allDogs {
     width: 30%;
   }
-  .facts {
-    width: 30%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+
   footer {
     display: flex;
   }
