@@ -4,8 +4,6 @@
 
 <main>
 
-
-
     <div class="dogs_wrapper">
         <?php foreach ($dogs as $dog) : ?>
             <div class="allDogs">
@@ -23,5 +21,4 @@
     </div>
 
 </main>
-
 <?php require __DIR__ . '/footer.php'; ?>

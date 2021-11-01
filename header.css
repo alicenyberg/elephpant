@@ -2,23 +2,39 @@ header {
   height: 200px;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-header a:link {
-  text-decoration: none;
+.header_wrapper {
+  padding: 10px;
 }
 
 header img:hover {
   opacity: 0.5;
 }
 
-header .home {
+nav {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  text-align: center;
+
   display: flex;
-  justify-content: center;
+  flex-direction: row;
 }
 
-header .about {
-  display: flex;
-  justify-content: center;
+nav a {
+  padding: 10px;
+}
+header a:link {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  opacity: 0.5;
+}
+
+header a:visited {
+  color: black;
 }

@@ -16,12 +16,11 @@
 </head>
 
 <body>
+    <header class="header_wrapper">
+        <a href="index.php"><img src="images/dogheader.png" alt="home"></a>
 
-    <header>
-
-        <div class="header_img">
-            <a class="home" href="index.php"><img src="/images/home.png" alt="home"></a>
-            <a class="about" href="about.php"><img src="/images/about.png" alt="about"></a>
-        </div>
-
+        <nav>
+            <a class="home" href="index.php">home.</a>
+            <a class="about" href="about.php">more info.</a>
+        </nav>
     </header>

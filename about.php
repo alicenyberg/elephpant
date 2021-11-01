@@ -8,7 +8,7 @@
 
         <div class="countdown">
             <h3><?php echo "It's $daysLeft days left until MyDog2022!" ?><h3>
-                    <img src="/images/hero-mydog.jpeg" alt="three dogs">
+                    <img src="images/hero-mydog.jpeg" alt="three dogs">
                     <p>One of Europe's largest dog events. Read more <a href="https://mydog.se/"> here!</a></p>
         </div>
         <ul class="facts">
