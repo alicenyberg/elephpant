@@ -3,9 +3,7 @@
 declare(strict_types=1);
 
 
-
 $date = date('Y');
-
 
 
 function madeBy($firstName, $lastName)
@@ -13,8 +11,6 @@ function madeBy($firstName, $lastName)
     return "$firstName $lastName";
 }
 $author = madeBy('Alice', 'Nyberg');
-
-
 
 
 $startDate = date("Y-m-d");

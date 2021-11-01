@@ -5,7 +5,6 @@
 <main>
     <div class="facts_wrapper">
 
-
         <div class="countdown">
             <h3><?php echo "It's $daysLeft days left until MyDog2022!" ?><h3>
                     <img src="images/hero-mydog.jpeg" alt="three dogs">
@@ -17,7 +16,6 @@
                 <li> <?php echo $funFact; ?></li>
             <?php endforeach; ?>
         </ul>
-
 
     </div>
 </main>
