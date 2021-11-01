@@ -1,12 +1,18 @@
-INSERT MANDATORY GIF
+<img src="https://media.giphy.com/media/eYilisUwipOEM/giphy.gif">
 
-# Project Title
+# Dogs
 
-Text about the project and why it exists. This would also be a great place to link the project on One.com.
+My very very first PHP project! 
+
+This project is a website where you can look at cute dogs and read fun facts about dogs! You can take a look at it here: https://alicenyberg.com/project/
+
+
 
 # Installation
 
-Add the installation instructions.
+- Clone this repo
+- Start a PHP server (php -S localhost:8000)
+- Open up a browser and visit http://localhost:8000/index.php
 
 # Code Review
 
@@ -22,5 +28,5 @@ Code review written by [Jane Doh](https://github.com/username).
 
 Tested by the following people:
 
-1. Jane Doe
-2. John Doe
+1. Agnes Skönvall
+2. Amanda Hultén
