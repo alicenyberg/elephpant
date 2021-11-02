@@ -16,13 +16,13 @@ This project is a website where you can look at cute dogs and read fun facts abo
 
 # Code Review
 
-Code review written by [Jane Doh](https://github.com/username).
+Code review written by [Susanne Lam](https://github.com/s0wie).
 
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-2. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-3. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-4. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-5. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
+1. Remember to be consequent with the naming of your code. I.e. in main.css, everything is mostly written in snake case, but some of it is written in camelCase. Other than that, I think you’ve used css-rules really well.
+2. The files are easy to understand, but a suggestion to further organise it is to collect all css in a folder and all php-files in another folder.
+3. Nice use of booleans and if statements. It would be interesting to get information about the actual sizes of the dogs, and compare this to a constant. If it’s bigger than the constant, the statement can be true and the other way around.
+4. When you hover on the dogs, it gives the impression that the picture is clickable. Perhaps you can add a text on the hover, to add more information or link to another page with more information.
+5. It’s a good idea to write comments in the code to explain what you’re doing!
 
 # Testers
 
